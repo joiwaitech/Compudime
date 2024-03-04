@@ -1,9 +1,9 @@
 // Import required modules
 const express = require('express');
-
+const cors = require('cors');
 // Create an instance of Express
 const app = express();
-
+app.use(cors());
 // Define the endpoint handler for GET /GetURL
 app.get('/GetURL', (req, res) => {
   // Respond with the URL
