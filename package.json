@@ -1,0 +1,20 @@
+{
+  "name": "rest-api-example",
+  "version": "1.0.0",
+  "description": "A simple RESTful API example using Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Express",
+    "Node.js"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
